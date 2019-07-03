@@ -27,6 +27,12 @@
 /*
 1. General
 **********************************************************************/
+
+.slideItem {
+    position: absolute;
+  }
+
+  
  body {
     font-family:'Roboto', sans-serif;
     color: #FFF;

@@ -12,6 +12,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Easy for Exchange</title>
         <!-- Load Roboto font -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <!-- Load css styles -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -190,6 +192,14 @@
                 </div>
             </div>
         </div>
+        <div class="section third-section" style="background: rgb(215, 255, 163)">
+                <div class="container centered">
+                    <!-- <div class="sub-section"> -->
+                        <h1 style="color: black">Easy for Exchange</h1>
+                        <div style="color: black;" class="slideItem">24/7 Customer Service</div>
+                    <!-- </div> -->
+                </div>
+        </div>   
         <div class="section third-section" style="background: white">
             <div class="container centered">
                 <div class="sub-section">
@@ -523,6 +533,23 @@
                 <i class="icon-up-open"></i>
             </a>
         </div>
+        <script>
+           
+        // $('.slideItem').animate({right: 0}, 10000);
+        //     $('.slideItem').animate({left: 0}, 10000);
+            function loop() {
+    $('.slideItem').css({right:0});
+    $('.slideItem').animate({
+        right: '+=1400',
+    }, {
+        duration: 10000, 
+        easing: 'linear', 
+        complete: loop
+    });
+}
+loop();
+            
+            </script>
         <!-- ScrollUp button end -->
         <!-- Include javascript -->
         <script src="js/jquery.js"></script>
