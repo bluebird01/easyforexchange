@@ -387,8 +387,8 @@ p {
 /* Third section use bacground image */
 .third-section {
     padding-bottom: 70px;
-    background: #181A1C url(../images/brand-bg.png) no-repeat center;
-    border-top:6px solid #FECE1A;
+    background: rgb(234,253,225);
+    /* border-top:6px solid #FECE1A; */
 }
 .third-section .container {
     padding-top:20px;
@@ -540,10 +540,11 @@ p {
 3.4 Clients
 **********************************************************************/
  .client-slider img {
-    border:1px solid white;
+    /* border:1px solid white; */
+    border:none;
 }
 .client-slider img:hover {
-    background-color:#FECE1A;
+    background-color:rgb(151, 250, 204);
 }
 .client-nav {
     list-style:none;
