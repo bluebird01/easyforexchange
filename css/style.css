@@ -163,7 +163,7 @@ p {
     -moz-border-radius: 500px;
     border-radius: 500px;
     -khtml-border-radius: 500px;
-    border: 3px solid #fff;
+    border: 5px solid #FFF;
 }
 .left-align {
     text-align:left;
